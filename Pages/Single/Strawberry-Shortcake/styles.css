@@ -1,0 +1,94 @@
+/*Imported fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+*{
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+html{
+  min-height: 100vh;
+  background-color: #ff5591;
+  max-width: 1400px;
+}
+
+body{
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container{
+  background-color: white;
+  width: 700px;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 40px; 
+}
+
+header, section{
+  padding: 20px;
+}
+
+h1{
+  font-size: 50px;
+  font-family: 'Pacifico', cursive;
+}
+
+h3{
+  font-size: 35px;
+  font-family: 'Pacifico', cursive;
+}
+
+img{
+  width: 200px;
+  height: 300px
+}
+
+p, ul, ol {
+  font-size: 20px;
+  font-family: 'Zain', sans-serif;
+}
+
+.info{
+  background-color: #ffbfd5;
+  border-radius: 20px;
+}
+
+.info ul{
+  list-style: none;
+}
+
+.ingredients h4{
+  padding-top: 10px;
+  font-family: 'Pacifico', cursive;
+}
+
+.ingredients ul{
+  padding-bottom: 10px;
+}
+
+footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px; 
+}
+
+.back-btn{
+  background-color: #7f00b6;
+  padding: 10px; 
+  border-radius: 10px; 
+  font-weight: bold;
+  transition: 0.2s;
+  text-decoration: none;
+  color: white
+}
+
+.back-btn:hover{
+  background-color: #6c05f2;
+}

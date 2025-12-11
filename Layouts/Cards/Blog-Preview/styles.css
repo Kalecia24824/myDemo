@@ -1,0 +1,94 @@
+/*Imported Font*/
+@import url('https://fonts.googleapis.com/css2?family=Lilex:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+html{
+  background-color: #000054;
+}
+
+body{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container{
+  width: 500px; 
+  background-color: #006aff;
+  padding: 50px;
+  margin: 100px;
+  font-family: 'Lilex', monospace;
+}
+
+div{
+  padding: 15px;
+}
+
+.image img{
+  height: 240px;
+  padding-bottom: 20px;
+}
+
+.image p{
+  display: block;
+  max-width: 100px;
+  padding: 10px;
+  background-color: #8bbbff;
+  text-align: center;
+}
+
+h2{
+  font-size: 25px;
+}
+
+p{
+  font-size: 16px;
+}
+
+.author{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.author img{
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 400px; 
+  padding: 20px;
+  font-family: 'Lilex', monospace;
+  color: white;
+}
+
+a{
+  margin-right: 20px;
+}
+
+.back-btn{
+  background-color: #7f00b6;
+  max-width: 300px;
+  padding: 10px; 
+  border-radius: 10px; 
+  font-weight: bold;
+  transition: 0.2s;
+  text-decoration: none;
+  color: white
+}
+
+.back-btn:hover{
+  background-color: #f205cb;
+}

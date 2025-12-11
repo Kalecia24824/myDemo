@@ -1,0 +1,73 @@
+/*Imported font*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+html{
+  background: linear-gradient(to bottom, #c267ff, #7bb6ff, #ffb8f9);
+  min-height: 100vh;
+}
+
+body{
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container{
+  background-color: white;
+  width: 350px;
+  height: 450px; 
+  padding: 40px; 
+  margin: auto;
+  border-radius: 20px;
+  text-align: center;
+}
+
+h3{
+  font-size: 20px;
+  color: darkblue;
+  padding-bottom: 10px; 
+}
+
+img{
+  height: 200px;
+  margin-bottom: 20px; 
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px; 
+  padding: 20px 0;
+  margin-top: -20px 0;
+}
+
+.back-btn{
+  background-color: #7f00b6;
+  max-width: 300px;
+  padding: 10px; 
+  border-radius: 10px; 
+  font-weight: bold;
+  transition: 0.2s;
+  text-decoration: none;
+  color: white
+}
+
+.back-btn:hover{
+  background-color: #f205cb;
+}
