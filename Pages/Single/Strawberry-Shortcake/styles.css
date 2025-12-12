@@ -10,9 +10,7 @@
 }
 
 html{
-  min-height: 100vh;
   background-color: #ff5591;
-  max-width: 1000px;
 }
 
 body{
@@ -20,14 +18,16 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 .container{
   background-color: white;
+  justify-content: center;
   width: 600px;
   border-radius: 20px;
   padding: 40px;
-  margin: 40px; 
+  margin-top: 40px;
 }
 
 header, section{
@@ -77,6 +77,10 @@ footer-row {
   align-items: center;
   justify-content: center;
   width: 350px; 
+}
+
+.footer-row p{
+  margin-top: 10px;
 }
 
 .back-btn{
